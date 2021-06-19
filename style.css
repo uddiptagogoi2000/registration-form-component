@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #03a6d4;
+}
+
+.container {
+  width: 80%;
+  max-width: 850px;
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.university-name {
+  font-weight: 600;
+}
+
+.university-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #03a6d4;
+}
+#wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 2rem 0;
+}
+
+.left {
+  background-color: #144ec7;
+  color: #fff;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+.left .humaans {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.left > div:first-child {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left > p {
+  font-weight: 600;
+}
+
+.right {
+  padding: 5rem;
+  background-color: #fff;
+}
+
+.right > h3 {
+  margin-bottom: 2rem;
+}
+
+.right > h4 {
+  margin-bottom: 1rem;
+}
+
+.right > p {
+  font-size: 0.8rem;
+  color: #444;
+  margin-bottom: 2rem;
+}
+
+.form-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+.form-group {
+  flex: 50%;
+}
+
+.form-control {
+  display: inline-block;
+  width: 100%;
+  padding: 0.5rem 0;
+}
+
+.form-control input {
+  display: block;
+  width: 100%;
+  padding: 0.2rem;
+  margin-top: 0.3rem;
+  border: 1.3px solid #c4c4c4;
+  border-radius: 2px;
+}
+
+.form-control label {
+  color: #777;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.7rem 2rem;
+  color: #fff;
+  background-color: #144ec7;
+  margin: 1rem 0;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+small {
+  color: #777;
+}
+
+small > a {
+  text-decoration: none;
+  color: #03a6d4;
+}
